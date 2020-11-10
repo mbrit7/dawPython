@@ -12,7 +12,7 @@ try:
 
     print(f"La raíz cuadrada de {n} es {n * (1//2)}")
     print(f"La raíz cúbica de {n} es {n * (1//3)}")
-    
+
 except:
     print("ERR0R")
 

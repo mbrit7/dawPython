@@ -16,15 +16,15 @@ try:
     parcial1 = float(input("Dime la primera nota del parcial: "))
     parcial2 = float(input("Dime la segunda nota del parcial: "))
     parcial3 = float(input("Dime la tercera nota del parcial: "))
-    finalExam = float(input("Dime la nota del examen final: "))
-    finalWork = float(input("Dime la nota del trabajo final: "))
+    final_exam = float(input("Dime la nota del examen final: "))
+    final_work = float(input("Dime la nota del trabajo final: "))
     
     # Creo la lista 'mean' para poder utilizar el método mean 
     # y calcular la media directamente 
     mean = [parcial1, parcial2, parcial3] 
     
     # Realizo las operaciones y muestro los datos
-    print(f"La nota de Algoritmos es {int(st.mean(mean) * 0.55) + int(0.30 * finalExam) + int(0.15 * finalWork)}")
+    print(f"La nota de Algoritmos es {int(st.mean(mean) * 0.55) + int(0.30 * final_exam) + int(0.15 * final_work)}")
 
 except:
     print("ERR0R")

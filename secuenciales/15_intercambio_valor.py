@@ -7,6 +7,8 @@ try:
     a = int(input("Dime el valor entero de a: "))
     b = int(input("Dime el valor entero de b: "))
 
+    a,b = b,a
+
     print(f"El valor anterior de a era {a} y ahora es {b} \nEl valor de b era {b} y ahora es {a}")
 
 except:

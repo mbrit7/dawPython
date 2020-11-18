@@ -12,12 +12,14 @@ try:
     # The user introduce two numbers for calculate the even number between n1 and n2
     n1 = int(input("\nIntroduce a number: "))
     n2 = int(input("Introduce another number: "))
-
-    n2+=1 # to go through ALL the numbers between n1 and n2
+    
+    if n1 > n2:
+        n1, n2 = n2, n1 
 
     # 'for' loop to go through the numbers and show the even numbers
-
     print("\nThe even numbers are:")
+    
+    n2 += 1 # to go through ALL numbers
 
     for num in range(n1, n2):
         if num % 2 == 0:
